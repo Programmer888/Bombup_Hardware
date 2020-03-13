@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-| Date             : Thu Mar 12 12:28:49 2020
+| Date             : Thu Mar 12 23:24:21 2020
 | Host             : LAPTOP-29Q9R4T3 running 64-bit major release  (build 9200)
 | Command          : report_power -file top_power_routed.rpt -pb top_power_summary_routed.pb -rpx top_power_routed.rpx
 | Design           : top
@@ -53,13 +53,13 @@ Table of Contents
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
 | Clocks         |    <0.001 |        5 |       --- |             --- |
-| Slice Logic    |    <0.001 |      639 |       --- |             --- |
-|   LUT as Logic |    <0.001 |      304 |     20800 |            1.46 |
-|   Register     |    <0.001 |       96 |     41600 |            0.23 |
-|   CARRY4       |    <0.001 |       91 |      8150 |            1.12 |
+| Slice Logic    |    <0.001 |      598 |       --- |             --- |
+|   LUT as Logic |    <0.001 |      285 |     20800 |            1.37 |
+|   Register     |    <0.001 |       90 |     41600 |            0.22 |
+|   CARRY4       |    <0.001 |       83 |      8150 |            1.02 |
 |   BUFG         |    <0.001 |        2 |        32 |            6.25 |
 |   Others       |     0.000 |       15 |       --- |             --- |
-| Signals        |    <0.001 |      302 |       --- |             --- |
+| Signals        |    <0.001 |      258 |       --- |             --- |
 | Block RAM      |    <0.001 |        1 |        50 |            2.00 |
 | MMCM           |     0.135 |        1 |         5 |           20.00 |
 | I/O            |     0.014 |       35 |       106 |           33.02 |
@@ -74,7 +74,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     0.013 |       0.003 |      0.010 |
+| Vccint    |       1.000 |     0.012 |       0.003 |      0.010 |
 | Vccaux    |       1.800 |     0.088 |       0.075 |      0.013 |
 | Vcco33    |       3.300 |     0.005 |       0.004 |      0.001 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |

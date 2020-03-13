@@ -25,7 +25,7 @@ use ieee.numeric_std.all;
 
 
 package pkg is
-  Type RamType is array(9 downto 0) of std_logic_vector(15 downto 0);
+  Type RamType is array(9 downto 0) of std_logic_vector(9 downto 0);
 end package;
 
 package body pkg is
@@ -51,6 +51,8 @@ architecture Behavioral of SPI is
     
     signal dat_reg : STD_LOGIC_VECTOR (15 downto 0);
     signal output_reg : STD_LOGIC_VECTOR (7 downto 0);
+    signal werk : STD_LOGIC_VECTOR(3 downto 0);
+    --signal address_mode : std_logic;
     --SIGNAL Ram : RamType;
 begin
 
@@ -72,7 +74,17 @@ begin
         if (SS'event and SS = '1') then
             -- update LEDs with new data on rising edge of CS
             LED <= dat_reg;--(7 downto 0);
-            Ram(0) <= dat_reg;--"0000000001100100"; --dat_reg;--std_logic_vector(to_unsigned(100, Ram(0)'length));
+            --werk <= "111";
+            --Ram(to_integer(unsigned(werk(3 downto 0)))) <= dat_reg(9 downto 0);
+            --case dat_reg(15 downto 13) is
+            --  when "001"      =>  Ram(1) <= "0000000001100100";--dat_reg(9 downto 0);
+            --  when "111"      =>  Ram(7) <= "0000000011001000";--dat_reg(9 downto 0);
+            --  when others => Ram(3) <= "0000000111100010";
+            --end case;
+            
+            
+            Ram(to_integer(unsigned(dat_reg(15 downto 13)))) <= dat_reg(9 downto 0);--"0000000001100100"; --dat_reg;--std_logic_vector(to_unsigned(100, Ram(0)'length));
+            --dat_reg <= "0000000000000000";
        end if;
    end process;
 

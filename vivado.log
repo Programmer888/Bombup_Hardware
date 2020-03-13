@@ -866,3 +866,593 @@ program_hw_devices [get_hw_devices xc7a35t_0]
 INFO: [Labtools 27-3164] End of startup status: HIGH
 refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
 INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+[Thu Mar 12 12:21:55 2020] Launched synth_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/synth_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Thu Mar 12 12:26:47 2020] Launched impl_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/youri/Vivado/Game/Game.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/youri/Vivado/Game/Game.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+[Thu Mar 12 12:40:39 2020] Launched synth_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 3314.172 ; gain = 0.000
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+[Thu Mar 12 12:53:19 2020] Launched synth_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 3314.176 ; gain = 0.000
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Thu Mar 12 12:54:59 2020] Launched impl_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/youri/Vivado/Game/Game.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+[Thu Mar 12 13:07:42 2020] Launched synth_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:00 ; elapsed = 00:00:17 . Memory (MB): peak = 3314.883 ; gain = 0.000
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Thu Mar 12 13:08:32 2020] Launched impl_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/youri/Vivado/Game/Game.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+[Thu Mar 12 13:12:25 2020] Launched synth_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:01 ; elapsed = 00:00:17 . Memory (MB): peak = 3314.883 ; gain = 0.000
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+[Thu Mar 12 13:13:06 2020] Launched synth_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:01 ; elapsed = 00:00:17 . Memory (MB): peak = 3314.883 ; gain = 0.000
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Thu Mar 12 13:14:22 2020] Launched impl_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/youri/Vivado/Game/Game.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+[Thu Mar 12 13:17:44 2020] Launched synth_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:00 ; elapsed = 00:00:21 . Memory (MB): peak = 3314.883 ; gain = 0.000
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Thu Mar 12 13:19:36 2020] Launched impl_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/youri/Vivado/Game/Game.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+[Thu Mar 12 13:25:25 2020] Launched synth_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:01 ; elapsed = 00:00:26 . Memory (MB): peak = 3314.883 ; gain = 0.000
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Thu Mar 12 13:28:16 2020] Launched impl_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/youri/Vivado/Game/Game.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+[Thu Mar 12 13:58:57 2020] Launched synth_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:03 ; elapsed = 00:00:49 . Memory (MB): peak = 3315.789 ; gain = 0.656
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Thu Mar 12 14:01:18 2020] Launched impl_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/youri/Vivado/Game/Game.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+[Thu Mar 12 14:08:34 2020] Launched synth_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:03 ; elapsed = 00:00:47 . Memory (MB): peak = 3315.789 ; gain = 0.000
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Thu Mar 12 14:10:09 2020] Launched impl_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/youri/Vivado/Game/Game.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+[Thu Mar 12 14:15:34 2020] Launched synth_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:03 ; elapsed = 00:00:38 . Memory (MB): peak = 3315.836 ; gain = 0.047
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Thu Mar 12 14:32:15 2020] Launched impl_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/youri/Vivado/Game/Game.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+[Thu Mar 12 14:37:39 2020] Launched synth_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:01 ; elapsed = 00:00:17 . Memory (MB): peak = 3315.836 ; gain = 0.000
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Thu Mar 12 14:38:50 2020] Launched impl_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/youri/Vivado/Game/Game.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+CRITICAL WARNING: [HDL 9-806] Syntax error near "player1_y". [C:/Users/youri/Vivado/Game/Game.srcs/sources_1/new/image1.vhd:200]
+[Thu Mar 12 14:46:18 2020] Launched synth_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:00 ; elapsed = 00:00:17 . Memory (MB): peak = 3315.867 ; gain = 0.031
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+[Thu Mar 12 14:49:19 2020] Launched synth_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:00 ; elapsed = 00:00:17 . Memory (MB): peak = 3315.887 ; gain = 0.016
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Thu Mar 12 14:51:10 2020] Launched impl_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/youri/Vivado/Game/Game.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+[Thu Mar 12 14:57:33 2020] Launched synth_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:00 ; elapsed = 00:00:18 . Memory (MB): peak = 3315.914 ; gain = 0.000
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Thu Mar 12 14:58:44 2020] Launched impl_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/youri/Vivado/Game/Game.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+[Thu Mar 12 15:05:24 2020] Launched synth_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:01 ; elapsed = 00:00:17 . Memory (MB): peak = 3315.949 ; gain = 0.012
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Thu Mar 12 15:06:18 2020] Launched impl_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/youri/Vivado/Game/Game.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+[Thu Mar 12 15:09:25 2020] Launched synth_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:00 ; elapsed = 00:00:14 . Memory (MB): peak = 3315.953 ; gain = 0.000
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Thu Mar 12 15:10:33 2020] Launched impl_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/youri/Vivado/Game/Game.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+[Thu Mar 12 15:12:52 2020] Launched synth_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/synth_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Thu Mar 12 15:13:40 2020] Launched impl_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/youri/Vivado/Game/Game.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+[Thu Mar 12 15:17:32 2020] Launched synth_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:00 ; elapsed = 00:00:18 . Memory (MB): peak = 3316.090 ; gain = 0.000
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Thu Mar 12 15:18:19 2020] Launched impl_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/youri/Vivado/Game/Game.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+launch_runs: Time (s): cpu = 00:00:02 ; elapsed = 00:00:18 . Memory (MB): peak = 3316.129 ; gain = 0.000
+INFO: [Common 17-344] 'launch_runs' was cancelled
+launch_runs synth_1 -jobs 12
+[Thu Mar 12 15:23:06 2020] Launched synth_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:00 ; elapsed = 00:00:18 . Memory (MB): peak = 3316.129 ; gain = 0.000
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Thu Mar 12 15:24:23 2020] Launched impl_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+[Thu Mar 12 16:48:18 2020] Launched synth_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:01 ; elapsed = 00:00:18 . Memory (MB): peak = 3318.309 ; gain = 0.000
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Thu Mar 12 16:49:59 2020] Launched impl_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/youri/Vivado/Game/Game.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+[Thu Mar 12 17:10:26 2020] Launched synth_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:00 ; elapsed = 00:00:18 . Memory (MB): peak = 3318.309 ; gain = 0.000
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Thu Mar 12 17:11:16 2020] Launched impl_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/youri/Vivado/Game/Game.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+[Thu Mar 12 17:19:10 2020] Launched synth_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:01 ; elapsed = 00:00:35 . Memory (MB): peak = 3402.316 ; gain = 84.008
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Thu Mar 12 17:20:17 2020] Launched impl_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/youri/Vivado/Game/Game.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+[Thu Mar 12 17:25:15 2020] Launched synth_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:01 ; elapsed = 00:00:26 . Memory (MB): peak = 3402.465 ; gain = 0.051
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Thu Mar 12 17:26:24 2020] Launched impl_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/youri/Vivado/Game/Game.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+[Thu Mar 12 17:35:00 2020] Launched synth_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:01 ; elapsed = 00:00:20 . Memory (MB): peak = 3402.680 ; gain = 0.211
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Thu Mar 12 17:37:04 2020] Launched impl_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/youri/Vivado/Game/Game.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+[Thu Mar 12 17:40:06 2020] Launched synth_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:01 ; elapsed = 00:00:18 . Memory (MB): peak = 3402.789 ; gain = 0.105
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Thu Mar 12 17:40:55 2020] Launched impl_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/youri/Vivado/Game/Game.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+[Thu Mar 12 17:46:09 2020] Launched synth_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:00 ; elapsed = 00:00:13 . Memory (MB): peak = 3402.910 ; gain = 0.000
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Thu Mar 12 17:47:01 2020] Launched impl_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/youri/Vivado/Game/Game.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+[Thu Mar 12 17:53:23 2020] Launched synth_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:01 ; elapsed = 00:00:21 . Memory (MB): peak = 3403.004 ; gain = 0.000
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Thu Mar 12 17:54:59 2020] Launched synth_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/synth_1/runme.log
+[Thu Mar 12 17:54:59 2020] Launched impl_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/impl_1/runme.log
+launch_runs: Time (s): cpu = 00:00:00 ; elapsed = 00:00:18 . Memory (MB): peak = 3403.004 ; gain = 0.000
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/youri/Vivado/Game/Game.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+[Thu Mar 12 17:58:32 2020] Launched synth_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:01 ; elapsed = 00:00:18 . Memory (MB): peak = 3403.098 ; gain = 0.094
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Thu Mar 12 17:59:23 2020] Launched impl_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/youri/Vivado/Game/Game.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+[Thu Mar 12 18:03:54 2020] Launched synth_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:00 ; elapsed = 00:00:18 . Memory (MB): peak = 3403.098 ; gain = 0.000
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Thu Mar 12 18:04:56 2020] Launched impl_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/youri/Vivado/Game/Game.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+[Thu Mar 12 18:07:07 2020] Launched synth_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:00 ; elapsed = 00:00:18 . Memory (MB): peak = 3403.176 ; gain = 0.078
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Thu Mar 12 18:07:56 2020] Launched impl_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/youri/Vivado/Game/Game.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+[Thu Mar 12 18:11:52 2020] Launched synth_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:01 ; elapsed = 00:00:18 . Memory (MB): peak = 3403.383 ; gain = 0.000
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Thu Mar 12 18:13:02 2020] Launched impl_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/youri/Vivado/Game/Game.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+[Thu Mar 12 18:15:55 2020] Launched synth_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:00 ; elapsed = 00:00:18 . Memory (MB): peak = 3403.383 ; gain = 0.000
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Thu Mar 12 18:16:49 2020] Launched impl_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/youri/Vivado/Game/Game.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+[Thu Mar 12 18:21:28 2020] Launched synth_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:00 ; elapsed = 00:00:18 . Memory (MB): peak = 3403.383 ; gain = 0.000
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Thu Mar 12 18:22:22 2020] Launched impl_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/youri/Vivado/Game/Game.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/youri/Vivado/Game/Game.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/youri/Vivado/Game/Game.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+[Thu Mar 12 20:24:33 2020] Launched synth_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:01 ; elapsed = 00:00:13 . Memory (MB): peak = 3403.465 ; gain = 0.082
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+[Thu Mar 12 20:25:18 2020] Launched synth_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:00 ; elapsed = 00:00:19 . Memory (MB): peak = 3403.484 ; gain = 0.016
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Thu Mar 12 20:31:45 2020] Launched impl_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/youri/Vivado/Game/Game.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+[Thu Mar 12 21:18:02 2020] Launched synth_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:02 ; elapsed = 00:00:25 . Memory (MB): peak = 3403.488 ; gain = 0.004
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Thu Mar 12 21:41:39 2020] Launched impl_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/youri/Vivado/Game/Game.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+[Thu Mar 12 22:29:19 2020] Launched synth_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:03 ; elapsed = 00:00:57 . Memory (MB): peak = 3403.523 ; gain = 0.000
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Thu Mar 12 22:34:36 2020] Launched impl_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/youri/Vivado/Game/Game.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/youri/Vivado/Game/Game.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+reset_run synth_1
+launch_runs synth_1 -jobs 12
+[Thu Mar 12 23:05:50 2020] Launched synth_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:03 ; elapsed = 00:00:46 . Memory (MB): peak = 3403.641 ; gain = 0.066
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Thu Mar 12 23:15:08 2020] Launched impl_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/impl_1/runme.log
+reset_run impl_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/youri/Vivado/Game/Game.runs/synth_1
+
+launch_runs synth_1 -jobs 12
+[Thu Mar 12 23:16:09 2020] Launched synth_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:02 ; elapsed = 00:00:43 . Memory (MB): peak = 3403.699 ; gain = 0.055
+launch_runs impl_1 -to_step write_bitstream -jobs 12
+[Thu Mar 12 23:21:17 2020] Launched impl_1...
+Run output will be captured here: C:/Users/youri/Vivado/Game/Game.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/youri/Vivado/Game/Game.runs/impl_1/top.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Mar 12 23:41:51 2020...

@@ -192,7 +192,7 @@ color_scheme_layout: color_scheme port map(
            G_Data_Out => G_Data_Out,
            B_Data_Out => B_Data_Out);  
            
-player1_x <= to_integer(unsigned(Ram(0)));
+
 process(reset)
 --variable hor_int : INTEGER;
 --variable ver_int : INTEGER;
@@ -209,7 +209,8 @@ end if;
        hor_int <= ((((hcount-1)/2) mod 16)+1);
        ver_int <= ((((vcount-1)/Scale) mod H)); 
        
-       
+        player1_x <= to_integer(unsigned(Ram(0)));
+        player1_y <= 100;--to_integer(unsigned(Ram(7)));
        
         --get current data wall
         read_wall <= ((hor_int+(ver_int*16)));   
@@ -222,7 +223,7 @@ end if;
         --get current date player1
         --read_player1 <= (((((((hcount-1)/2)+x) mod 16)+1)+((((((vcount-1)/Scale)+y) mod H))*16)));             
         --addr_player1 <= std_logic_vector(to_unsigned(read_player1, addr_player1'length));
-        read_player1 <= ((vcount - player1_x) * H + (hcount - 100));--(((vcount - 100*H) + (hcount - 100));             
+        read_player1 <= 0;--((vcount - player1_y) * H + (hcount - player1_x));--(((vcount - 100*H) + (hcount - 100));             
         addr_player1 <= std_logic_vector(to_unsigned(read_player1, addr_player1'length));
         
         
@@ -257,8 +258,8 @@ end if;
         --hcount >= ((3*scale)+1+x) and hcount < ((3*scale)+1+x+(1*Scale*H)) and
         --enable_player1 = '1') then
         
-        if (vcount >= 100 and vcount < (100 +  H)
-                and hcount >= player1_x and hcount < (player1_x + W)) then
+        if (vcount >= player1_y+1 and vcount < (player1_y + H + 1)
+                and hcount >= player1_x + 1 and hcount < (player1_x + W + 1)) then
             Data_In <= dout_player1;
         
                                    
